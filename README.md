@@ -48,9 +48,3 @@ To understand how parsers work internally (like compilers & interpreters).
 * [ ] Step 3: Parse numbers, booleans, null
 * [ ] Step 4: Nested objects & arrays
 * [ ] Step 5: Error handling & testing
-
----
-
-## 🌟 Inspired By
-
-https://codingchallenges.fyi/challenges/challenge-json-parser
