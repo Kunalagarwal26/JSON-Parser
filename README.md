@@ -1,7 +1,6 @@
 # JSON Parser
 A simple and complete **JSON parser built from scratch in Python**, without using the built-in `json` module.
 
----
 
 ## Features
 * Custom Lexer (Tokenization)
@@ -18,7 +17,6 @@ A simple and complete **JSON parser built from scratch in Python**, without usin
 * CLI support for parsing JSON files
 * Built-in test cases
 
----
 
 ## Tech Stack
 * **Language:** Python 3
@@ -28,7 +26,6 @@ A simple and complete **JSON parser built from scratch in Python**, without usin
   * Parsing (Recursive Descent)
   * Data Structures (dict, list)
 
----
 
 ## Project Structure
 ```
@@ -43,7 +40,6 @@ json-parser/
 │── README.md
 ```
 
----
 
 ## Installation & Setup
 ### 1. Clone the Repository
@@ -52,7 +48,6 @@ json-parser/
 git clone https://github.com/Kunalagarwal26/JSON-Parser.git
 ```
 
----
 
 ## Usage
 ### Run Test Cases
@@ -83,7 +78,6 @@ python main.py sample.json
 {'name': 'Kunal', 'age': 21, 'skills': ['Python', 'AI']}
 ```
 
----
 
 ## Testing
 * Test cases are stored in:
@@ -103,7 +97,6 @@ Run all tests:
 python main.py
 ```
 
----
 
 ## Concepts Covered
 * How JSON parsing works internally
@@ -111,7 +104,6 @@ python main.py
 * Recursive parsing of nested structures
 * Error handling in parsers
 
----
 
 ## Author
 **Kunal Agarwal**
