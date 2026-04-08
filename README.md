@@ -2,6 +2,17 @@
 A simple and complete **JSON parser built from scratch in Python**, without using the built-in `json` module.
 
 
+## Why this project?
+This project demonstrates how JSON parsing works internally, similar to how compilers and interpreters process structured data.
+
+
+## Highlights
+- Built without Python’s built-in json module
+- Recursive parsing of nested JSON
+- CLI tool for real-world usage
+- Robust error handling
+
+
 ## Features
 * Custom Lexer (Tokenization)
 * Recursive Descent Parser
