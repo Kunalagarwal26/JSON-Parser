@@ -1,4 +1,4 @@
-# JSON Parser from Scratch (Python)
+# JSON Parser
 
 A simple and complete **JSON parser built from scratch in Python**, without using the built-in `json` module.
 
@@ -36,7 +36,7 @@ A simple and complete **JSON parser built from scratch in Python**, without usin
 ## Project Structure
 
 ```
-json-parser-from-scratch/
+json-parser/
 │── lexer.py
 │── parser.py
 │── main.py
@@ -55,7 +55,6 @@ json-parser-from-scratch/
 
 ```bash
 git clone https://github.com/Kunalagarwal26/JSON-Parser.git
-cd json-parser-from-scratch
 ```
 
 ---
