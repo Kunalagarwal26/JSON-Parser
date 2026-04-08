@@ -1,6 +1,6 @@
-# JSON-Parser
+# JSON Parser from Scratch (Python)
 
-This project is a step-by-step implementation of a **JSON Parser**, without using Python’s built-in `json` module.
+A simple and complete **JSON parser built from scratch in Python**, without using the built-in `json` module.
 
 ---
 
@@ -10,41 +10,120 @@ This project is a step-by-step implementation of a **JSON Parser**, without usin
 * Recursive Descent Parser
 * Supports:
 
-  * Objects
-  * Arrays
-  * Strings
-  * Numbers
-  * Booleans
-  * Null
-* Error handling for invalid JSON
-
----
-
-## Project Structure
-
-* `lexer.py` → Converts input into tokens
-* `parser.py` → Parses tokens into Python objects
-* `main.py` → Entry point
-* `tests/` → JSON test cases
-
----
-
-## Goal
-
-To understand how parsers work internally (like compilers & interpreters).
+  * Objects `{}`
+  * Arrays `[]`
+  * Strings (with escape characters)
+  * Numbers (int & float)
+  * Booleans (`true`, `false`)
+  * Null (`null`)
+* Error handling with position tracking
+* CLI support for parsing JSON files
+* Built-in test cases
 
 ---
 
 ## Tech Stack
 
-* Python 3
+* **Language:** Python 3
+* **Concepts Used:**
+
+  * Lexical Analysis (Lexer)
+  * Parsing (Recursive Descent)
+  * Data Structures (dict, list)
 
 ---
 
-## Progress
+## Project Structure
 
-* [ ] Step 1: Basic JSON validation
-* [ ] Step 2: Parse strings
-* [ ] Step 3: Parse numbers, booleans, null
-* [ ] Step 4: Nested objects & arrays
-* [ ] Step 5: Error handling & testing
+```
+json-parser-from-scratch/
+│── lexer.py
+│── parser.py
+│── main.py
+│── utils.py
+│── tests/
+│   └── test_cases.json
+│── sample.json
+│── README.md
+```
+
+---
+
+## Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Kunalagarwal26/JSON-Parser.git
+cd json-parser-from-scratch
+```
+
+---
+
+## Usage
+
+### Run Test Cases
+
+```bash
+python main.py
+```
+
+### Parse a JSON File
+
+```bash
+python main.py sample.json
+```
+
+### Example Input (`sample.json`)
+
+```json
+{
+  "name": "Kunal",
+  "age": 21,
+  "skills": ["Python", "AI"]
+}
+```
+
+### Output
+
+```python
+{'name': 'Kunal', 'age': 21, 'skills': ['Python', 'AI']}
+```
+
+---
+
+## Testing
+
+* Test cases are stored in:
+
+```
+tests/test_cases.json
+```
+
+* Includes:
+
+  * ✅ Valid JSON examples
+  * ❌ Invalid JSON cases
+
+Run all tests:
+
+```bash
+python main.py
+```
+
+---
+
+## Concepts Covered
+
+* How JSON parsing works internally
+* Tokenization (breaking input into tokens)
+* Recursive parsing of nested structures
+* Error handling in parsers
+
+---
+
+## Author
+
+**Kunal Agarwal**
+
+---
