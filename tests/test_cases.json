@@ -1,1 +1,17 @@
-
+{
+  "valid_cases": [
+    "{}",
+    "{\"name\": \"Kunal\"}",
+    "{\"age\": 21}",
+    "{\"isStudent\": true}",
+    "{\"data\": null}",
+    "{\"numbers\": [1, 2, 3]}"
+  ],
+  "invalid_cases": [
+    "{",
+    "{\"name\": \"Kunal}",
+    "{\"age\": }",
+    "{\"key\": tru}",
+    "{\"key\": nul}"
+  ]
+}
